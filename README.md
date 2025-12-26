@@ -19,7 +19,7 @@ This repository contains all the projects I completed during my **Python Program
 |------|--------------|-------------|--------------|
 | **Task 1** | [TO-DO List GUI](./To-Do-List-GUI.py) | A user-friendly task management application | Python, Tkinter, JSON |
 | **Task 2** | [Calculator GUI](./Calculator-GUI.py) | A fully functional calculator with graphical interface | Python, Tkinter |
-| **Task 3** | [Password Generator GUI](./Password-generetor-GUI.py) | A secure password generator with customizable options | Python, Tkinter, Random |
+| **Task 3** | [Password Generator ](./Password-generetor-GUI.py) | A secure password generator with customizable options | Python, Tkinter, Random |
 
 ---
 
@@ -78,7 +78,7 @@ python Calculator-GUI.py
 
 ---
 
-## 🔐 Task 3: Password Generator GUI
+## 🔐 Task 3: Password Generator 
 
 A secure password generator application that creates strong, random passwords based on user-defined criteria.
 
@@ -98,7 +98,7 @@ A secure password generator application that creates strong, random passwords ba
 
 ### Quick Start
 ```bash
-python Password-generetor-GUI.py
+python Password-generetor.py
 ```
 
 ### Requirements
@@ -129,7 +129,7 @@ python Password-generetor-GUI.py
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/CODSOFT-Python-Internship.git
+git clone https://github.com/mehbub-hub/CODSOFT-Python-Internship.git
 cd CODSOFT-Python-Internship
 ```
 
@@ -222,9 +222,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact & Connect
 
 - **Name**: Mehbub Raza
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Email Address]
+- **GitHub**: [github.com/Mehbub-hub]
+- **LinkedIn**: [www.linkedin.com/in/mehbub-razza-8b2a23399]
+- **Email**: [mehbubraza69@gmail.com]
 
 ---
 
