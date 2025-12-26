@@ -10,7 +10,7 @@ This repository contains all the projects I completed during my **Python Program
 
 - **Name**: Mehbub Raza
 - **Internship**: CODSOFT Python Programming Internship
-- **Duration**: [Start Date] - [End Date]
+- **Duration**: [10/12/25] - [10/01/26]
 - **Domain**: Python Programming & GUI Development
 
 ## 📚 Projects Overview
@@ -19,7 +19,7 @@ This repository contains all the projects I completed during my **Python Program
 |------|--------------|-------------|--------------|
 | **Task 1** | [TO-DO List GUI](./To-Do-List-GUI.py) | A user-friendly task management application | Python, Tkinter, JSON |
 | **Task 2** | [Calculator GUI](./Calculator-GUI.py) | A fully functional calculator with graphical interface | Python, Tkinter |
-| **Task 3** | [Password Generator ](./Password-generetor-GUI.py) | A secure password generator with customizable options | Python, Tkinter, Random |
+| **Task 3** | [Password Generator ](./Password-generetor.py) | A secure password generator with customizable options | Python, Tkinter, Random |
 
 ---
 
