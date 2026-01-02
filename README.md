@@ -239,7 +239,7 @@ Through these projects, I gained practical experience in:
 
 **Mehbub Razza**
 
-- 📧 Email: [your.email@example.com]
+- 📧 Email: [mehbubraza69@gmail.com]
 - 💼 LinkedIn: [www.linkedin.com/in/mehbub-razza-8b2a23399]
 - 🐙 GitHub: [@myusername](https://github.com/Mehbub-hub)
 
