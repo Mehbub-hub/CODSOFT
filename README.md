@@ -1,233 +1,264 @@
-# CODSOFT Python Programming Internship Projects
+# CodSoft Python Programming Internship Projects
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Internship](https://img.shields.io/badge/Internship-CODSOFT-orange.svg)
-
-This repository contains all the projects I completed during my **Python Programming Internship at CODSOFT**. Each task demonstrates different aspects of GUI development and practical Python programming skills.
-
-## 👨‍💻 Intern Information
-
-- **Name**: Mehbub Raza
-- **Internship**: CODSOFT Python Programming Internship
-- **Duration**: [10/12/25] - [10/01/26]
-- **Domain**: Python Programming & GUI Development
-
-## 📚 Projects Overview
-
-| Task | Project Name | Description | Technologies |
-|------|--------------|-------------|--------------|
-| **Task 1** | [TO-DO List GUI](./To-Do-List-GUI.py) | A user-friendly task management application | Python, Tkinter, JSON |
-| **Task 2** | [Calculator GUI](./Calculator-GUI.py) | A fully functional calculator with graphical interface | Python, Tkinter |
-| **Task 3** | [Password Generator ](./password-generator.py) | A secure password generator with customizable options | Python, Tkinter, Random |
+**Intern Name:** Mehbub Razza  
+**Internship:** Python Programming at CodSoft  
+**Repository:** Python Internship Projects Collection
 
 ---
 
-## ✅ Task 1: TO-DO List GUI
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Projects](#projects)
+  - [1. To-Do List Manager](#1-to-do-list-manager)
+  - [2. Simple Calculator](#2-simple-calculator)
+  - [3. Password Generator](#3-password-generator)
+- [Technologies Used](#technologies-used)
+- [Installation & Setup](#installation--setup)
+- [How to Run](#how-to-run)
+- [Screenshots & Features](#screenshots--features)
+- [Learning Outcomes](#learning-outcomes)
+- [Contact](#contact)
 
-A user-friendly task management application that helps users organize and track their daily tasks efficiently.
+---
 
-### Features
-- ✅ Add new tasks with descriptions
-- ✅ Mark tasks as complete/incomplete
-- ✅ Edit existing tasks
-- ✅ Delete tasks
-- ✅ View all tasks in an organized list
-- ✅ Persistent storage (tasks saved between sessions)
-- ✅ Clean and intuitive user interface
-- ✅ Task prioritization or categorization
+## 🎯 Overview
 
-### Quick Start
-```bash
-python TO-DO-List-GUI.py
+This repository contains three Python projects completed during my internship at CodSoft. Each project demonstrates different aspects of Python programming, from GUI development to security implementations and user interaction design.
+
+---
+
+## 📂 Projects
+
+### 1. To-Do List Manager
+
+A comprehensive task management application with a graphical user interface built using Tkinter.
+
+#### Features:
+- ✅ **Add Tasks** - Create new tasks with custom priorities
+- ✏️ **Update Tasks** - Modify existing tasks and their priorities
+- 🗑️ **Delete Tasks** - Remove completed or unwanted tasks
+- ✓ **Mark Complete** - Track task completion status
+- 🎨 **Priority Levels** - Categorize tasks as High, Medium, or Low
+- 💾 **Persistent Storage** - Tasks saved to JSON file (`tasks.json`)
+- 📊 **Statistics Dashboard** - View total, completed, and pending tasks
+- 🎯 **Visual Indicators** - Color-coded priorities and completion status
+- ⌨️ **Keyboard Shortcuts** - Press Enter to add tasks quickly
+- 🖱️ **Double-Click Edit** - Double-click any task to edit it
+
+#### Technical Highlights:
+- JSON-based data persistence
+- Object-oriented programming structure
+- Event-driven GUI with Tkinter
+- Real-time statistics tracking
+- Input validation and error handling
+
+#### File Structure:
+```
+📁 To-Do List Manager/
+├── todo_app.py          # Main application code
+└── tasks.json           # Auto-generated data file
 ```
 
-### Requirements
-- Python 3.x
-- Tkinter (usually comes with Python)
-- JSON for data persistence
-
-[➡️ View Code](./TO-DO-List-GUI.py)
-
 ---
 
-## 🧮 Task 2: Calculator GUI
+### 2. Simple Calculator
 
-A fully functional calculator application with a graphical interface for performing basic and advanced mathematical operations.
+An intuitive calculator application with a clean, user-friendly interface for basic arithmetic operations.
 
-### Features
-- ➕ Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
-- 🔢 Decimal number support
-- ⌫ Clear and backspace functionality
-- 🧮 Advanced operations (Square root, percentage, power)
-- 📊 Keyboard input support
-- 🎨 Modern, responsive button layout
-- ⚠️ Error handling for invalid operations
-- 📝 Display history of calculations
+#### Features:
+- ➕ **Addition** - Add two numbers
+- ➖ **Subtraction** - Subtract second number from first
+- ✖️ **Multiplication** - Multiply two numbers
+- ➗ **Division** - Divide with zero-division error handling
+- 🎨 **Modern UI** - Clean, professional interface design
+- 🔄 **Clear Function** - Reset all inputs with one click
+- ⚠️ **Error Handling** - Validates inputs and handles exceptions
+- 📱 **Fixed Layout** - Consistent 400x550 window size
 
-### Quick Start
-```bash
-python Calculator-GUI.py
+#### Technical Highlights:
+- Radio button selection for operations
+- Input validation for numeric values
+- Exception handling for edge cases
+- Responsive button interactions
+- Color-coded result display
+
+#### File Structure:
+```
+📁 Simple Calculator/
+└── calculator.py        # Main application code
 ```
 
-### Requirements
-- Python 3.x
-- Tkinter
-
-[➡️ View Code](./Calculator-GUI.py)
-
 ---
 
-## 🔐 Task 3: Password Generator 
+### 3. Password Generator
 
-A secure password generator application that creates strong, random passwords based on user-defined criteria.
+A cryptographically secure password generator with customizable complexity options and strength analysis.
 
-### Features
-- 🔐 Generate strong, random passwords
-- 🎚️ Adjustable password length
-- ✔️ Customizable character sets:
+#### Features:
+- 🔐 **Cryptographically Secure** - Uses `secrets` module for true randomness
+- ⚙️ **Customizable Options:**
   - Uppercase letters (A-Z)
   - Lowercase letters (a-z)
-  - Numbers (0-9)
-  - Special characters (!@#$%^&*)
-- 📋 Copy to clipboard functionality
-- 💪 Password strength indicator
-- 🔄 Generate multiple passwords
-- 💾 Save generated passwords (optional)
-- 🎨 User-friendly interface
+  - Digits (0-9)
+  - Special symbols (!@#$%^&*...)
+- 📏 **Flexible Length** - Generate passwords from 4 to 128+ characters
+- 💪 **Strength Analysis** - Real-time password strength assessment
+- 🔢 **Entropy Calculation** - Displays cryptographic entropy in bits
+- ✅ **Character Guarantee** - Ensures at least one character from each selected type
+- 📊 **Strength Ratings:**
+  - ⚠️ WEAK (< 28 bits)
+  - ⚡ FAIR (28-35 bits)
+  - ✓ GOOD (36-59 bits)
+  - ✓✓ STRONG (60-127 bits)
+  - ✓✓✓ VERY STRONG (128+ bits)
+- 💡 **Security Tips** - Built-in best practices guide
 
-### Quick Start
-```bash
-python Password-generetor.py
+#### Technical Highlights:
+- Uses `secrets` module for cryptographic randomness
+- Mathematical entropy calculation
+- Character pool composition analysis
+- Input validation and error handling
+- Interactive command-line interface
+- Continuous generation mode
+
+#### File Structure:
 ```
-
-### Requirements
-- Python 3.x
-- Tkinter
-- `random` module
-- `string` module
-- Optional: `pyperclip` for clipboard functionality
-
-[➡️ View Code](./Password-generetor-GUI.py)
+📁 Password Generator/
+└── password_generator.py  # Main application code
+```
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Programming Language**: Python 3.x
-- **GUI Framework**: Tkinter
-- **Libraries**: JSON, Random, String, Pyperclip (optional)
-- **Tools**: Git, GitHub, VS Code
-
-## 📋 Prerequisites
-
-- Python 3.x installed
-- pip package manager
-- Basic understanding of Python and GUI programming
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/mehbub-hub/CODSOFT-Python-Internship.git
-cd CODSOFT-Python-Internship
-```
-
-2. **Install optional dependencies** (if needed)
-```bash
-pip install pyperclip
-```
-
-3. **Run any project**
-```bash
-# TO-DO List Application
-python TO-DO-List-GUI.py
-
-# Calculator Application
-python Calculator-GUI.py
-
-# Password Generator Application
-python Password-generetor-GUI.py
-```
-
-## 📈 Key Learnings
-
-- Building interactive GUI applications using Tkinter
-- Implementing CRUD (Create, Read, Update, Delete) operations
-- Managing application state and data persistence
-- User input validation and error handling
-- Event-driven programming paradigm
-- Creating responsive and intuitive user interfaces
-- Software design patterns and best practices
-- Problem-solving and debugging skills
-
-## 🎓 Skills Developed
-
-- Python Programming
-- GUI Development with Tkinter
-- Data Persistence (JSON)
-- Event Handling
-- Error Management
-- User Experience Design
-- Code Organization
-- Git Version Control
-
-## 🔜 Future Enhancements
-
-### TO-DO List:
-- [ ] Add due dates and reminders
-- [ ] Implement task categories and tags
-- [ ] Add search and filter functionality
-- [ ] Dark mode theme
-- [ ] Export tasks to CSV/PDF
-
-### Calculator:
-- [ ] Scientific calculator mode
-- [ ] Calculation history with export feature
-- [ ] Multiple themes
-- [ ] Unit conversion features
-- [ ] Graph plotting capabilities
-
-### Password Generator:
-- [ ] Password manager integration
-- [ ] Password strength analysis with detailed feedback
-- [ ] Exclude ambiguous characters option
-- [ ] Pronounceable password generation
-- [ ] Password history with encryption
-
-## 📸 Screenshots
-
-*(Add screenshots of your applications here)*
-
-### TO-DO List GUI
-![TO-DO List Screenshot](#)
-
-### Calculator GUI
-![Calculator Screenshot](#)
-
-### Password Generator GUI
-![Password Generator Screenshot](#)
-
-## 🤝 Acknowledgments
-
-- **CODSOFT** for providing this amazing internship opportunity
-- Mentors and supervisors for their guidance and support
-- Python community for excellent documentation and resources
-- Open-source community for inspiration
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact & Connect
-
-- **Name**: Mehbub Raza
-- **GitHub**: [github.com/Mehbub-hub]
-- **LinkedIn**: [www.linkedin.com/in/mehbub-razza-8b2a23399]
-- **Email**: [mehbubraza69@gmail.com]
+- **Python 3.x** - Core programming language
+- **Tkinter** - GUI framework for desktop applications
+- **JSON** - Data storage and persistence
+- **secrets** - Cryptographically secure random generation
+- **string** - Character set definitions
+- **datetime** - Timestamp functionality
 
 ---
 
-### ⭐ If you found these projects helpful, please consider giving this repository a star!
+## 💻 Installation & Setup
 
-**Made with ❤️ during CODSOFT Python Programming Internship**
+### Prerequisites:
+- Python 3.6 or higher installed on your system
+- Tkinter (usually comes pre-installed with Python)
+
+### Steps:
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/yourusername/codsoft-python-internship.git
+cd codsoft-python-internship
+```
+
+2. **Verify Python installation:**
+```bash
+python --version
+```
+
+3. **No additional dependencies required!** All projects use Python standard library modules.
+
+---
+
+## 🚀 How to Run
+
+### To-Do List Manager:
+```bash
+python todo_app.py
+```
+
+### Simple Calculator:
+```bash
+python calculator.py
+```
+
+### Password Generator:
+```bash
+python password_generator.py
+```
+
+---
+
+## 📸 Screenshots & Features
+
+### To-Do List Manager
+- Modern dark-themed header
+- Priority-based color coding (🔴 High, 🟡 Medium, 🟢 Low)
+- Real-time task statistics
+- Intuitive button layout
+
+### Simple Calculator
+- Clean green-themed interface
+- Large, readable input fields
+- Clear result display panel
+- Radio button operation selection
+
+### Password Generator
+- Command-line interface with formatted output
+- Detailed password analysis
+- Security tips and recommendations
+- Batch generation capability
+
+---
+
+## 📚 Learning Outcomes
+
+Through these projects, I gained practical experience in:
+
+1. **GUI Development**
+   - Tkinter widget management
+   - Event handling and user interactions
+   - Layout design and styling
+
+2. **Data Management**
+   - JSON file operations
+   - Data persistence techniques
+   - CRUD operations implementation
+
+3. **Security Practices**
+   - Cryptographic random generation
+   - Password strength analysis
+   - Security best practices
+
+4. **Software Design**
+   - Object-oriented programming
+   - Error handling and validation
+   - User experience considerations
+
+5. **Problem Solving**
+   - Algorithm implementation
+   - Edge case handling
+   - Code optimization
+
+---
+
+## 📞 Contact
+
+**Mehbub Razza**
+
+- 📧 Email: [your.email@example.com]
+- 💼 LinkedIn: [www.linkedin.com/in/mehbub-razza-8b2a23399]
+- 🐙 GitHub: [@myusername](https://github.com/Mehbub-hub)
+
+---
+
+## 📝 License
+
+This project is part of my internship at CodSoft and is available for educational purposes.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to **CodSoft** for providing this internship opportunity and guidance throughout the development of these projects.
+
+---
+
+### ⭐ If you find these projects helpful, please consider giving this repository a star!
+
+---
+
+*Last Updated: January 2026*
