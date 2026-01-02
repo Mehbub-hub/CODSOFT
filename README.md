@@ -150,7 +150,7 @@ A cryptographically secure password generator with customizable complexity optio
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/codsoft-python-internship.git
+git clone https://github.com/Mehbub-hub/codsoft-python-internship.git
 cd codsoft-python-internship
 ```
 
